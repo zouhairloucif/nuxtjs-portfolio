@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer :mini-variant="false" :clipped="false" fixed app  color="info lighten-2">
+  <v-navigation-drawer color="info lighten-2" :mini-variant="false" app>
     <v-list>
       <v-list-item inactive :ripple="false" nuxt :to="{name: 'about'}">
         <v-list-item-avatar size="180" horizontal class="mx-auto">

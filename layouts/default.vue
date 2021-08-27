@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <drawer/>
+    <drawer />
     <v-main>
       <v-container>
         <div class="text-right px-4">

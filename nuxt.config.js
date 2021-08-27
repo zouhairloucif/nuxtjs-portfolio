@@ -39,10 +39,12 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/google-fonts',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'nuxt-babel',
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -61,6 +63,18 @@ export default {
           success: colors.green.accent3
         }
       }
+    }
+  },
+
+  // Font
+  googleFonts: {
+    download: true,
+    base64: true,
+    families: {
+      Roboto: true,
+      'Josefin+Sans': true,
+      Lato: true,
+      Raleway: true,
     }
   },
 
